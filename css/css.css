@@ -1,0 +1,67 @@
+/* FONDOS */
+
+.fondo{
+    background-image: linear-gradient(45deg, rgb(42, 27, 53) 0%, rgb(42, 27, 53) 26%,rgb(82, 55, 64) 26%, rgb(82, 55, 64) 27%,rgb(121, 83, 76) 27%, rgb(121, 83, 76) 29%,rgb(161, 111, 87) 29%, rgb(161, 111, 87) 30%,rgb(200, 139, 99) 30%, rgb(200, 139, 99) 100%);
+}
+
+/* CARDS */
+
+.borde{
+    border-radius: 2rem;
+}
+.card-border{
+    box-shadow: 0.5rem 1rem 1.5rem rgba(0,0,0,0.50);
+    border-radius: 2rem;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+/* ESTILOS VARIOS */
+
+a{
+    text-decoration: none;
+}
+
+.texto-input{
+    color: white;
+}
+
+.boton{
+    width: 100%;
+    background-color: wheat;
+    border-radius: 1rem;
+    transition: all ease-out 0.2s;
+}
+
+.boton:hover{
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+
+.opacidad{
+    color: rgb(42, 27, 53);
+}
+
+.opacidad:hover{
+    color: wheat;
+    opacity: 0.7;
+}
+
+.text-violeta{
+    color: rgb(42, 27, 53);
+    font-weight: bold;
+}
+
+.contenedor{
+    width: min(90%, 38rem);
+    margin: 0 auto;
+}
+
+.text-wheat{
+    color: wheat;
+    font-weight: bold;
+}
